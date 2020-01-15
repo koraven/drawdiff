@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 .vscode/
 *.xml
+drawdiff_conf.json
 # C extensions
 *.so
 
