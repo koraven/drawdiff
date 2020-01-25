@@ -4,8 +4,9 @@ import json
 from urllib.parse import quote
 import re
 
-def get_diagram_from_attachments(page_title, space='', version=''):
 
+def get_diagram_from_attachments(page_title, space='', version=''):
+    DIAGRAM_NUMBER = None
     with open('drawdiff_conf.json','r') as conf:
         config = json.load(conf)
 
@@ -26,7 +27,7 @@ def get_diagram_from_attachments(page_title, space='', version=''):
     attachments = json.loads(resp.text)
     diagrams = list()
     for attach in attachments['attachment']['results']:
-        if attach['metadata']['mediaType'] == 'application/vnd.jgraph.mxfile':
+        if attach['metadata']['mediaType'] == 'application/vnd.jgraph.mxfile' or attach['metadata']['mediaType'] == 'application/drawio':
             diagrams.append({
                 'name': attach['title'],
                 'download': attach['_links']['download']
@@ -37,8 +38,21 @@ def get_diagram_from_attachments(page_title, space='', version=''):
             download_path = re.sub(r"version=\d*",f"version={version}",diagrams[0]['download'])
         else:
             download_path = diagrams[0]['download']
-        resp = requests.get(
+    elif not DIAGRAM_NUMBER:
+        print('There are more than 1 diagram on the page. Please, enter a number of your diagram from list below:')
+        it = 1
+        for diagram in diagrams:
+            print(f"{it}. {diagram['name']}")
+            it += 1
+        while True:
+            try:
+                DIAGRAM_NUMBER = int(input())
+                break
+            except ValueError:
+                print('Enter number.')
+        download_path = re.sub(r"version=\d*",f"version={version}",diagrams[DIAGRAM_NUMBER-1]['download'])
+    resp = requests.get(
             url = confluence_url + download_path,
             auth = auth
         )
-        return resp.text
+    return resp.text
