@@ -1,0 +1,11 @@
+{
+    "auth": {
+        "username": "user",
+        "password": "pass"
+    },
+    "confluence": {
+        "url": "https://confluence.example.com",
+        "title": ""
+    }
+
+}

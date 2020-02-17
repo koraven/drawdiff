@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2020-01-26T14:52:55.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/12.5.3 Chrome/78.0.3904.130 Electron/7.1.9 Safari/537.36" etag="hZWhq4I8M-mh9gHSVBaF" version="12.5.3" type="device">
+  <diagram id="EexQhfrmEs8oI_x_rl7J" name="Page-1">
+    <mxGraphModel dx="768" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="7lXG2enQV1QJ-lID8sms-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="370" height="490" as="geometry"/>
+        </mxCell>
+        <mxCell id="7lXG2enQV1QJ-lID8sms-4" value="" style="endArrow=none;html=1;strokeColor=#FF00FF;strokeWidth=9;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="220" as="sourcePoint"/>
+            <mxPoint x="370" y="220" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lXG2enQV1QJ-lID8sms-5" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=9;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="260" as="sourcePoint"/>
+            <mxPoint x="370" y="260" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lXG2enQV1QJ-lID8sms-6" value="" style="endArrow=none;html=1;strokeColor=#33FF33;strokeWidth=9;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="300" as="sourcePoint"/>
+            <mxPoint x="370" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lXG2enQV1QJ-lID8sms-7" value="Updated elements" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="210" width="115" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="7lXG2enQV1QJ-lID8sms-8" value="Deleted elements" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="250" width="115" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="7lXG2enQV1QJ-lID8sms-9" value="Added elements" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="290" width="115" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="7lXG2enQV1QJ-lID8sms-10" value="Below are IDs of changed elements. Use Edit -&amp;gt; Find to select them if highlighting does not help. Use Regexp like &lt;br&gt;&lt;b&gt;&#39;.*Zdkddjfasj-1&#39;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="320" width="325" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="7lXG2enQV1QJ-lID8sms-13" value="IDs" fill_this='true' style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="380" width="335" height="280" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
