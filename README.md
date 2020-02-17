@@ -3,7 +3,7 @@ It is an beta-version of my project which provides capability to highlight diffe
 It supports two modes: comparison of local files and Confluence integration.
 
 ## Usage
-Clone this project
+Clone this project then   
 `cd drawdiff`
 
 ### Local mode
