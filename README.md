@@ -15,7 +15,7 @@ python ./main.py -l ./examples/test1_1.xml ./examples/test1_2.xml -o output.xml
 
 ### Confluence mode
 Firstly you need to specify confluence configuration. To do this create 'drawdiff_conf.json' in a project root directory.
-You can find template of the file [here](./drawdiff_conf_template.json).
+You can find template of the file [here](./drawdiff_conf_template.json). In this mode drawdiff will download specified versions of diagram attached to the page and compare them without saving file locally. If there are more than one diagram in attachments drawdiff will ask you to specify a name of diagram
 'title' field is not mandatory and is for development purpose.
 
 ```bash
